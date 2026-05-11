@@ -36,6 +36,11 @@ def get_sites():
     return sites
 
 # Serve the static React frontend from the /dist folder
-frontend_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "frontend", "dist")
+frontend_dir = "/app/frontend/dist"
 if os.path.exists(frontend_dir):
     app.mount("/", StaticFiles(directory=frontend_dir, html=True), name="frontend")
+else:
+    # Fallback for local development
+    local_frontend_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "frontend", "dist")
+    if os.path.exists(local_frontend_dir):
+        app.mount("/", StaticFiles(directory=local_frontend_dir, html=True), name="frontend")
