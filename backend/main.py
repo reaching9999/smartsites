@@ -15,7 +15,7 @@ app.add_middleware(
 )
 
 assets_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "backend_assets_v1")
-app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+app.mount("/data_assets", StaticFiles(directory=assets_dir), name="data_assets")
 
 @app.get("/sites")
 def get_sites():

@@ -86,8 +86,8 @@ export default function App() {
   const costImpact = absChange * 0.2; // Derived $ value of movement
   
   const currentImgName = currentSite.frontend_image_assets.raw_images[safeDayIdx];
-  const currentImgUrl = `/assets/${currentSite.site_id}/${currentImgName}`;
-  const aiOverlayImgUrl = `/assets/${currentSite.site_id}/${currentSite.frontend_image_assets.ai_mask_images[safeDayIdx]}`;
+  const currentImgUrl = `/data_assets/${currentSite.site_id}/${currentImgName}`;
+  const aiOverlayImgUrl = `/data_assets/${currentSite.site_id}/${currentSite.frontend_image_assets.ai_mask_images[safeDayIdx]}`;
 
   const chartData = days.map((day, idx) => ({
       day: day,
