@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "material_id": "3_Topsoil_Usage",
+        "material_type": "MOUND OF BROWN DIRT",
+        "status": "DEPLETING",
+        "last_updated": "2026-05-10T03:00:52.235793"
+    },
+    "kpi_metrics": {
+        "current_volume_m3": 13.430000305175781,
+        "current_mass_kg": 21483.970703125,
+        "net_change_kg": -7183.66015625,
+        "usage_velocity_kg_per_period": 1436.72998046875,
+        "auto_refill_trigger_date": "May 25, 2026"
+    },
+    "frontend_chart_data": {
+        "x_labels": [
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri"
+        ],
+        "y_values_kg": [
+            28667.640625,
+            23718.66015625,
+            24667.060546875,
+            24887.08984375,
+            21483.970703125
+        ]
+    },
+    "frontend_image_assets": {
+        "raw_images": [
+            "T0_raw.jpg",
+            "T1_raw.jpg",
+            "T2_raw.jpg",
+            "T3_raw.jpg",
+            "T4_raw.jpg"
+        ],
+        "ai_mask_images": [
+            "T0_mask.jpg",
+            "T1_mask.jpg",
+            "T2_mask.jpg",
+            "T3_mask.jpg",
+            "T4_mask.jpg"
+        ],
+        "depth_topology_images": [
+            "T0_depth.jpg",
+            "T1_depth.jpg",
+            "T2_depth.jpg",
+            "T3_depth.jpg",
+            "T4_depth.jpg"
+        ],
+        "standalone_chart": "Inventory_Chart.png"
+    }
+}

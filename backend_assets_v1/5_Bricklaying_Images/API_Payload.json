@@ -1,0 +1,40 @@
+{
+    "metadata": {
+        "material_id": "5_Bricklaying_Images",
+        "material_type": "STACKS OF BRICKS",
+        "status": "ACCUMULATING",
+        "last_updated": "2026-05-10T03:05:19.990161"
+    },
+    "kpi_metrics": {
+        "current_volume_m3": 4.039999961853027,
+        "current_mass_kg": 7747.419921875,
+        "net_change_kg": 5299.35986328125,
+        "usage_velocity_kg_per_period": 2649.679931640625,
+        "auto_refill_trigger_date": "N/A"
+    },
+    "frontend_chart_data": {
+        "x_labels": [
+            "Start of Shift",
+            "End of Shift"
+        ],
+        "y_values_kg": [
+            2448.06005859375,
+            7747.419921875
+        ]
+    },
+    "frontend_image_assets": {
+        "raw_images": [
+            "T0_raw.jpg",
+            "T1_raw.jpg"
+        ],
+        "ai_mask_images": [
+            "T0_mask.jpg",
+            "T1_mask.jpg"
+        ],
+        "depth_topology_images": [
+            "T0_depth.jpg",
+            "T1_depth.jpg"
+        ],
+        "standalone_chart": "Inventory_Chart.png"
+    }
+}

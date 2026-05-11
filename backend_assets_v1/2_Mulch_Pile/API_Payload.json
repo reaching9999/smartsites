@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "material_id": "2_Mulch_Pile",
+        "material_type": "PILE OF DARK MULCH",
+        "status": "DEPLETING",
+        "last_updated": "2026-05-10T02:56:31.407638"
+    },
+    "kpi_metrics": {
+        "current_volume_m3": 15.649999618530273,
+        "current_mass_kg": 5477.77001953125,
+        "net_change_kg": -1273.77001953125,
+        "usage_velocity_kg_per_period": 254.75,
+        "auto_refill_trigger_date": "May 31, 2026"
+    },
+    "frontend_chart_data": {
+        "x_labels": [
+            "Week 1",
+            "Week 2",
+            "Week 3",
+            "Week 4",
+            "Week 5"
+        ],
+        "y_values_kg": [
+            6751.5400390625,
+            6119.240234375,
+            6640.669921875,
+            6440.81982421875,
+            5477.77001953125
+        ]
+    },
+    "frontend_image_assets": {
+        "raw_images": [
+            "T0_raw.jpg",
+            "T1_raw.jpg",
+            "T2_raw.jpg",
+            "T3_raw.jpg",
+            "T4_raw.jpg"
+        ],
+        "ai_mask_images": [
+            "T0_mask.jpg",
+            "T1_mask.jpg",
+            "T2_mask.jpg",
+            "T3_mask.jpg",
+            "T4_mask.jpg"
+        ],
+        "depth_topology_images": [
+            "T0_depth.jpg",
+            "T1_depth.jpg",
+            "T2_depth.jpg",
+            "T3_depth.jpg",
+            "T4_depth.jpg"
+        ],
+        "standalone_chart": "Inventory_Chart.png"
+    }
+}

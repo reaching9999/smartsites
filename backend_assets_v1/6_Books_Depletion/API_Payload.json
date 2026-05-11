@@ -1,0 +1,60 @@
+{
+    "metadata": {
+        "material_id": "6_Books_Depletion",
+        "material_type": "BOOK",
+        "status": "DEPLETING",
+        "last_updated": "2026-05-10T17:41:33.493470"
+    },
+    "kpi_metrics": {
+        "current_volume_m3": 0.6000000238418579,
+        "current_mass_kg": 481.6199951171875,
+        "net_change_kg": -2122.320068359375,
+        "usage_velocity_kg_per_period": 353.7200012207031,
+        "auto_refill_trigger_date": "May 12, 2026"
+    },
+    "frontend_chart_data": {
+        "x_labels": [
+            "State 1",
+            "State 2",
+            "State 3",
+            "State 4",
+            "State 5",
+            "State 6"
+        ],
+        "y_values_kg": [
+            2603.93994140625,
+            2471.89990234375,
+            1541.949951171875,
+            1084.5699462890625,
+            789.4000244140625,
+            481.6199951171875
+        ]
+    },
+    "frontend_image_assets": {
+        "raw_images": [
+            "T0_raw.jpg",
+            "T1_raw.jpg",
+            "T2_raw.jpg",
+            "T3_raw.jpg",
+            "T4_raw.jpg",
+            "T5_raw.jpg"
+        ],
+        "ai_mask_images": [
+            "T0_mask.jpg",
+            "T1_mask.jpg",
+            "T2_mask.jpg",
+            "T3_mask.jpg",
+            "T4_mask.jpg",
+            "T5_mask.jpg"
+        ],
+        "depth_topology_images": [
+            "T0_depth.jpg",
+            "T1_depth.jpg",
+            "T2_depth.jpg",
+            "T3_depth.jpg",
+            "T4_depth.jpg",
+            "T5_depth.jpg"
+        ],
+        "standalone_chart": "Inventory_Chart.png"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "material_id": "1_Bricks_Unloading",
+        "material_type": "STACK OF RED BRICKS",
+        "status": "ACCUMULATING",
+        "last_updated": "2026-05-10T02:54:07.870377"
+    },
+    "kpi_metrics": {
+        "current_volume_m3": 2.7899999618530273,
+        "current_mass_kg": 5359.72021484375,
+        "net_change_kg": 4432.75,
+        "usage_velocity_kg_per_period": 886.5499877929688,
+        "auto_refill_trigger_date": "N/A"
+    },
+    "frontend_chart_data": {
+        "x_labels": [
+            "Day 1",
+            "Day 2",
+            "Day 3",
+            "Day 4",
+            "Day 5"
+        ],
+        "y_values_kg": [
+            926.969970703125,
+            2365.909912109375,
+            4508.72998046875,
+            4705.35009765625,
+            5359.72021484375
+        ]
+    },
+    "frontend_image_assets": {
+        "raw_images": [
+            "T0_raw.jpg",
+            "T1_raw.jpg",
+            "T2_raw.jpg",
+            "T3_raw.jpg",
+            "T4_raw.jpg"
+        ],
+        "ai_mask_images": [
+            "T0_mask.jpg",
+            "T1_mask.jpg",
+            "T2_mask.jpg",
+            "T3_mask.jpg",
+            "T4_mask.jpg"
+        ],
+        "depth_topology_images": [
+            "T0_depth.jpg",
+            "T1_depth.jpg",
+            "T2_depth.jpg",
+            "T3_depth.jpg",
+            "T4_depth.jpg"
+        ],
+        "standalone_chart": "Inventory_Chart.png"
+    }
+}

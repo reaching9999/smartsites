@@ -1,0 +1,55 @@
+{
+    "metadata": {
+        "material_id": "4_Pallet_Boxes",
+        "material_type": "CARDBOARD BOX",
+        "status": "ACCUMULATING",
+        "last_updated": "2026-05-10T03:05:16.954355"
+    },
+    "kpi_metrics": {
+        "current_volume_m3": 4.449999809265137,
+        "current_mass_kg": 444.5799865722656,
+        "net_change_kg": 392.1600036621094,
+        "usage_velocity_kg_per_period": 78.43000030517578,
+        "auto_refill_trigger_date": "N/A"
+    },
+    "frontend_chart_data": {
+        "x_labels": [
+            "08:00 AM",
+            "09:00 AM",
+            "10:00 AM",
+            "11:00 AM",
+            "12:00 PM"
+        ],
+        "y_values_kg": [
+            52.41999816894531,
+            108.80000305175781,
+            204.1300048828125,
+            324.9800109863281,
+            444.5799865722656
+        ]
+    },
+    "frontend_image_assets": {
+        "raw_images": [
+            "T0_raw.jpg",
+            "T1_raw.jpg",
+            "T2_raw.jpg",
+            "T3_raw.jpg",
+            "T4_raw.jpg"
+        ],
+        "ai_mask_images": [
+            "T0_mask.jpg",
+            "T1_mask.jpg",
+            "T2_mask.jpg",
+            "T3_mask.jpg",
+            "T4_mask.jpg"
+        ],
+        "depth_topology_images": [
+            "T0_depth.jpg",
+            "T1_depth.jpg",
+            "T2_depth.jpg",
+            "T3_depth.jpg",
+            "T4_depth.jpg"
+        ],
+        "standalone_chart": "Inventory_Chart.png"
+    }
+}
