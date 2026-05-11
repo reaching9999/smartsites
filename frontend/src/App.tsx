@@ -1,6 +1,6 @@
 ﻿import { useEffect, useState } from "react";
 import axios from "axios";
-import { AlertCircle, Box, Scale, Banknote, Zap, TrendingDown, Camera, Calendar, Layers, MapPin, ArrowUpRight, ArrowDownRight } from "lucide-react";
+import { AlertCircle, Box, Scale, Banknote, Zap, TrendingDown, Camera, Layers, MapPin, ArrowUpRight, ArrowDownRight } from "lucide-react";
 import {
   BarChart,
   Bar,
@@ -269,7 +269,7 @@ export default function App() {
                               <Tooltip 
                                 cursor={{stroke: '#cbd5e1', strokeWidth: 1, strokeDasharray: '4 4'}} 
                                 contentStyle={{borderRadius: '12px', border: '1px solid #e2e8f0', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)'}} 
-                                formatter={(value: number) => [`${value.toLocaleString()} kg`, 'Inventory']}
+                                  formatter={(value: any) => [`${Number(value).toLocaleString()} kg`, 'Inventory']}
                               />
                               <Area type="monotone" dataKey="inventory_kg" stroke="#3B82F6" strokeWidth={3} fillOpacity={1} fill="url(#colorMat)" name="Inventory" />
                           </AreaChart>
